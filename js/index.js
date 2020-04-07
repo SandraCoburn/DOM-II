@@ -1,3 +1,6 @@
+{/* <script src="https://cdn.jsdelivr.net/npm/gsap@3.0.1/dist/gsap.min.js"></script> */}
+
+
 // Your code goes here
 //Navigation: mouseenter, mouseleave, pointerenter, pointerout
 const navStyle = document.querySelectorAll("a");
@@ -106,3 +109,6 @@ stopLink.forEach(element => {
   event.target.preventDefault();
     });
 });
+
+//Stretch using GSAP
+
